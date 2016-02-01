@@ -14,9 +14,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('linux', Jekyll::CategoryListTag)
-Liquid::Template.register_tag('Maching Learning', Jekyll::CategoryListTag)
-Liquid::Template.register_tag('Program Language', Jekyll::CategoryListTag)
-Liquid::Template.register_tag('Math', Jekyll::CategoryListTag)
-Liquid::Template.register_tag('Algorithm', Jekyll::CategoryListTag)
-Liquid::Template.register_tag('Others', Jekyll::CategoryListTag)
+Liquid::Template.register_tag('category_list', Jekyll::CategoryListTag)
